@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Rubik:400,500,700');
+
+@font-face {
+  font-family: 'Font-Name';
+  src: url('../fonts/font-name.eot');
+  src: url('../fonts/font-name.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/font-name.woff') format('woff'),
+       url('../fonts/font-name.ttf') format('truetype'),
+       url('../fonts/font-name.svg#font-name') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-style: 'Font-Name', sans-serif;
+
+$rubik: 'Rubik', sans-serif;
+$abel: 'Abel', sans-serif;
+
+.header-cont {
+  .first,
+  .last {
+    font-family: $rubik;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 7rem;
+    @media only screen and (min-width: 576px) {
+      font-size: 10rem;
+	  }
+    @media only screen and (min-width: 768px) {
+      font-size: 15rem;
+      letter-spacing: 3px;
+	  }
+  }
+}
+.subhead {
+  font-family: $abel;
+  font-weight: 400;
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-family: $rubik;
+  font-weight: 500;
+  font-size: 5.5rem;
+  line-height: 1;
+  margin: 0;
+  text-align: center;
+  @media only screen and (min-width: 576px) {
+    font-size: 7rem;
+  }
+  @media only screen and (min-width: 768px) {
+    font-size: 9rem;
+  }
+}
+
+h3 {
+  font-family: $rubik;
+  font-weight: 400;
+  font-size: 3.25rem;
+  line-height: 1;
+  margin: 0;
+  text-transform: uppercase;
+}

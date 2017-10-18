@@ -1,0 +1,55 @@
+::selection{
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection{
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+::-webkit-selection{
+  background: #333;
+  color: #fff;
+  text-shadow: none;
+}
+
+.aria {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.nav-reveal {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  @include css3-prefix(width, fit-content);
+
+  .line-cont {
+    position: relative;
+    height: 150px;
+
+    .line {
+      background-color: $black;
+      width: 1px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      display: block;
+    }
+  }
+
+  .line-text {
+    // position: absolute;
+    // margin-top: -15px;
+    // margin-left: 33px;
+    // @include css3-prefix(width, max-content);
+    font-size: 16px;
+    text-align: center;
+  }
+}

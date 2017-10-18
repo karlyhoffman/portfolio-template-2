@@ -1,0 +1,39 @@
+nav {
+  .icon-bar {
+    background-color: $red-1;
+  }
+
+  #navbar {
+    .navbar-nav {
+      li {
+        text-align: right;
+
+        &.active {
+          a {
+            color: $red-3;
+          }
+        }
+
+        a {
+          color: $red-1;
+
+          &:hover {
+            background-color: transparent;
+            color: $red-3;
+          }
+        }
+      }
+    }
+    /* Mobile Dropdown */
+    &.in {
+      .navbar-nav {
+        li {
+          a {
+            padding-right: 25px;
+          }
+        }
+      }
+    }
+  }
+
+}

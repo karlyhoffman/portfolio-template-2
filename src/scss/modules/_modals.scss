@@ -1,0 +1,32 @@
+.modal-backdrop {
+    opacity: 0.75 !important;
+}
+
+.modal {
+
+  .modal-dialog {
+    width: 90%;
+
+    .modal-content  {
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+
+      .modal-header,
+      .modal-body,
+      .modal-footer {
+        border: none;
+
+        img {
+          display: block;
+          margin: 0 auto;
+          width: 100%;
+
+          &:not(.first) {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
