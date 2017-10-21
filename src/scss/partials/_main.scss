@@ -161,6 +161,13 @@ body.portfolio-oct-2017 {
     .gallery-link {
       color: $red-1;
     }
+    a {
+      color: $carbon-black;
+
+      &:hover {
+        color: $red-1;
+      }
+    }
 
     .project-cont {
       padding: 5vw 0;
