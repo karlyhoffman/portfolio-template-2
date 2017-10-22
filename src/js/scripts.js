@@ -22,16 +22,10 @@
       var fadeIn = TweenMax.fromTo(this, 0.5, {"opacity": "0"}, {"opacity": "1", ease: Power0.easeNone});
       var fadeScene = new ScrollMagic.Scene({triggerHook: "0.95", triggerElement: this}).setTween(fadeIn).addTo(controller);
     });
-
-    // $( ".first" ).each(function( index, elem ) {
-    //     var firstIn = TweenMax.fromTo(this, 0.3, { "opacity": "0", marginLeft: "-100vw" }, { "opacity": "1", marginLeft:0, ease: Power0.easeNone });
-    //     var firstScene = new ScrollMagic.Scene({triggerHook: "0.65", triggerElement: this}).setTween(firstIn).addTo(controller);
-    // });
-    //
-    // $( ".last" ).each(function( index, elem ) {
-    //     var lastIn = TweenMax.fromTo(this, 0.3, { "opacity": "0", marginRight: "-100vw" }, { "opacity": "1", marginRight:0, ease: Power0.easeNone });
-    //     var lastScene = new ScrollMagic.Scene({triggerHook: "0.65", triggerElement: this}).setTween(lastIn).addTo(controller);
-    // });
+    $( ".fade-late" ).each(function( index, elem ) {
+      var fadeIn = TweenMax.fromTo(this, 0.5, {"opacity": "0"}, {"opacity": "1", ease: Power0.easeNone});
+      var fadeScene = new ScrollMagic.Scene({triggerHook: "0.5", triggerElement: this}).setTween(fadeIn).addTo(controller);
+    });
 
     $( ".nav-reveal" ).each(function( index, elem ) {
       var lineAnim = $(elem).find('.line');

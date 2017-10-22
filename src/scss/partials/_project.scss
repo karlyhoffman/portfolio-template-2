@@ -1,16 +1,28 @@
 .project {
 
-
-  .h4 {
-    margin-bottom: 30px;
+  .row {
+    overflow: hidden;
   }
 
   img {
     width: 100%;
+
+    @media only screen and (min-width: 992px) {
+      height: 40vw;
+      object-fit: cover;
+    }
   }
 
   .copy-cont {
     padding: 40px;
+
+    .h4 {
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 14px;
+    }
   }
 
   /* Desktop Odd + Even Spacing */
