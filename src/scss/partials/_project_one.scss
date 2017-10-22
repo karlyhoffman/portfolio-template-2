@@ -1,7 +1,42 @@
-.project-one {
+.project {
+
+
+  .h4 {
+    margin-bottom: 30px;
+  }
 
   img {
     width: 100%;
   }
 
+  .copy-cont {
+    padding: 40px;
+  }
+
+  /* Desktop Odd + Even Spacing */
+  @media only screen and (min-width: 992px) {
+    section {
+      .img-col {
+        padding: 0 2vw 0 0;
+        // overflow: hidden;
+        //
+        // img {
+        //   height: 70vw;
+        //   object-fit: cover;
+        // }
+      }
+      .copy-cont {
+        padding: 60px 3vw 60px 1vw;
+      }
+
+      &:nth-of-type(even){
+        .img-col {
+          padding: 0 0 0 2vw;
+        }
+        .copy-cont {
+          padding: 60px 1vw 60px 3vw;
+        }
+      }
+    }
+  }
 }
