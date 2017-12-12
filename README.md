@@ -1,9 +1,9 @@
 # Portfolio Template Two
 
+![Portfolio Template 2 Homepage](http://78.media.tumblr.com/b34ac5d0ecc69e4dcf565447cdbc42ec/tumblr_p0vgfpoA0i1sq81swo1_1280.jpg "Portfolio Template 2 Homepage")
+
 ## Project Deliverables:
 - A responsive portfolio website to showcases various projects.
-
-![Portfolio Template 2 Homepage](http://78.media.tumblr.com/b34ac5d0ecc69e4dcf565447cdbc42ec/tumblr_p0vgfpoA0i1sq81swo1_1280.jpg "Portfolio Template 2 Homepage")
 
 ## Technologies Used:
 - HTML 5
